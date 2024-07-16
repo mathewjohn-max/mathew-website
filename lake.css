@@ -1,0 +1,74 @@
+@font-face{
+    font-family: 'keepCalm-Medium';
+    src: url(Feel\ Better.otf);
+}
+@font-face {
+    font-family: "something";
+    src: url(Something\ in\ the\ Cloud.ttf);
+}
+
+h1{
+    font-family: 'keepcalm-medium';
+    color: rgb(255, 255, 255);
+    border: 1px solid hsl(0, 0%, 82%);
+    font-weight: bold;
+    width: 257px;
+    cursor: pointer;
+    margin-left: 38% ;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+body{
+    background-color: hsl(33, 75%, 50%);
+    margin: 0;
+}
+.pics{
+    width:300px;
+    height: 300px;
+    margin-left: 38%;
+
+}
+h1:hover{
+    background-color: hsl(0, 0%, 82%);
+    color: hsl(33, 75%, 50%);
+}
+.pics:hover{
+    box-shadow: 2px 2px 6px black;
+}
+.navi a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color:rgb(255, 255, 255) ;
+    font-family: Ubuntu;
+}
+.navi ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(189, 77%, 47%);
+    overflow: hidden;
+}
+.navi a:hover{
+    background-color: hsl(189, 71%, 42%);
+}
+.navi li{
+    float: left;
+}
+h3{
+    text-decoration: underline;
+}
+#font{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu;
+}
+p{
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.navi button{
+    float:left;
+}
